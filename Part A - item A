@@ -1,1 +1,29 @@
 a.	List of Entities and Attributes (to include Primary keys for each entity).  For each entity you are required to identify at least five suitable attributes and data types.
+
+Entities:
+MTU
+Students
+Student Union
+Student body
+Class rep system
+Class rep
+
+(possible entities)
+Program
+Course
+
+
+Attributes: 
+MTU : 3rd level provider of Level 6,7,8 and 9 QQI
+Students: Approximately 9000, full time/part time
+SU: independent of MTU
+Class reps : Class reps are elected informally in class at the start of each academic year,
+
+Relationships:
+
+MTU
+
+Students -> MTU -> SU
+
+Class rep system -> Class reps -> Student Body
+                               ->	Student Union
